@@ -5,7 +5,7 @@ let chute;
 let tentativas = 1;
 
 while (chute != numerosecreto) {
-    chute = prompt('Escolha um numero entre 1 e 30');
+    chute = prompt('Escolha um numero entre 1 e 100');
     if (numerosecreto == chute){break}
    else {
         if (chute < numerosecreto) {
